@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="29260" started-at="2018-08-16T06:34:14Z" finished-at="2018-08-16T06:34:43Z">
+    <groups>
+    </groups>
+    <test name="MavenDemoTest" duration-ms="29260" started-at="2018-08-16T06:34:14Z" finished-at="2018-08-16T06:34:43Z">
+      <class name="com.demomaven.test.RegressionTestScripts">
+        <test-method status="PASS" signature="browserAppLaunch()[pri:0, instance:com.demomaven.test.RegressionTestScripts@56f4468b]" name="browserAppLaunch" is-config="true" duration-ms="12061" started-at="2018-08-16T02:34:14Z" finished-at="2018-08-16T02:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAppLaunch -->
+        <test-method status="PASS" signature="verifyinvalidLogin()[pri:0, instance:com.demomaven.test.RegressionTestScripts@56f4468b]" name="verifyinvalidLogin" duration-ms="5711" started-at="2018-08-16T02:34:26Z" finished-at="2018-08-16T02:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyinvalidLogin -->
+        <test-method status="PASS" signature="nevigateBack()[pri:0, instance:com.demomaven.test.RegressionTestScripts@56f4468b]" name="nevigateBack" duration-ms="1196" started-at="2018-08-16T02:34:32Z" finished-at="2018-08-16T02:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nevigateBack -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.demomaven.test.RegressionTestScripts@56f4468b]" name="verifyValidLogin" duration-ms="10094" started-at="2018-08-16T02:34:33Z" finished-at="2018-08-16T02:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="appClose()[pri:0, instance:com.demomaven.test.RegressionTestScripts@56f4468b]" name="appClose" is-config="true" duration-ms="151" started-at="2018-08-16T02:34:43Z" finished-at="2018-08-16T02:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+      </class> <!-- com.demomaven.test.RegressionTestScripts -->
+    </test> <!-- MavenDemoTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
